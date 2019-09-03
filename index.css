@@ -1,0 +1,391 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body,html{
+	overflow: hidden;
+}
+.box{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+#loading{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0;
+}
+#loading .jiazai{
+	width: 100%;
+	height: 100%;
+}
+.logo{
+    width:40%;
+    height:auto;
+    position:absolute;
+    bottom:5%;
+    left:30%;
+}
+
+.first{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: none;
+}
+.fir{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+.fir>img:nth-of-type(1){
+	width: 100%;
+	height: 100%;
+}
+.fir>img:nth-of-type(2){
+	width: 14.5%;
+	height: 41%;
+	position: absolute;
+	left: 45.5%;
+	top: 23.2%;
+	display: none;
+	animation:kuang 0.5s both linear;
+	-webkit-animation:kuang 0.5s both linear;
+}
+@keyframes kuang{
+	0% {
+		width: 35.1%;
+		height: 70%;
+		position: absolute;
+		left: 35%;
+		top: 15%;
+	}
+	100% {
+		width: 14.5%;
+		height: 41%;
+		position: absolute;
+		left: 45.5%;
+		top: 23.2%;
+	}
+}
+
+.fir>img:nth-of-type(3){
+	width: 8%;
+	height: 35%;
+	position: absolute;
+	left:48.8%;
+	top: 26%;
+	display: none;
+	animation:wenzi 0.5s both linear;
+	-webkit-animation:wenzi 0.5s both linear;
+}
+@keyframes wenzi{
+	0% {
+		width: 40%;
+		height: 80%;
+		position: absolute;
+		left:32%;
+		top: 5%;
+	}
+	100% {
+		width: 8%;
+		height: 35%;
+		position: absolute;
+		left:48.8%;
+		top: 26%;
+	}
+}
+
+
+.fir>img:nth-of-type(4){
+	width: 2.5%;
+	position: absolute;
+	right: 39.5%;
+	top: 56%;
+	display: none;
+	animation:yz 0.5s both linear;
+	-webkit-animation:yz 0.5s both linear;
+}
+@keyframes yz{
+	0% {
+		width: 30%;
+		position: absolute;
+		right: 35%;
+		top: 20%;
+	}
+	100% {
+		width: 2.5%;
+		position: absolute;
+		right: 39.5%;
+		top: 56%;
+	}
+}
+
+
+.solid{
+	width: 15px;
+	height: 15px;
+	border:1px solid #fff;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 15%;
+	right: 45%;
+	display: none;
+}
+.circle{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	position: absolute;
+	top: -8.5px;
+	left: -8.5px;
+	animation:mymove 1s infinite linear;
+	-webkit-animation:mymove 1s infinite linear;
+}
+@keyframes mymove{
+	0% {
+        transform: scale(0.2);
+        opacity: 0.5;
+    }
+    25% {
+        transform: scale(0.4);
+        opacity: 0.7;
+    }
+    50% {
+        transform: scale(0.6);
+        opacity: 1;
+    }
+    75% {
+        transform: scale(0.8);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+}
+.small{
+	width: 27px;
+	height: 27px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	position: absolute;
+	top: -8px;
+	left: -8px;
+	animation:smcircle 1s infinite linear;
+	-webkit-animation:smcircle 1s infinite linear;
+}
+@keyframes smcircle{
+	0% {
+        transform: scale(0.2);
+        opacity: 0.5;
+    }
+    25% {
+        transform: scale(0.4);
+        opacity: 0.7;
+    }
+    50% {
+        transform: scale(0.6);
+        opacity: 1;
+    }
+    75% {
+        transform: scale(0.8);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+}
+
+
+.three{
+	width: 100%;
+	height: 100%;
+}
+.bj{
+	width: 100%;
+	height: 100.5%;
+	margin-top: -2px;
+}
+
+.top{
+	width: 4%;
+	position: absolute;
+	left: 48%;
+	top: 17%;
+	display: none;
+}
+.letter{
+	width: 65%;
+	position: absolute;
+	left: 20%;
+	bottom: -120px;
+}
+.text{
+	width: 45%;
+	position: absolute;
+	bottom: 7%;
+	left: 28%;
+	display: none;
+}
+.yinz{
+	width: 15px;
+	height: 15px;
+	border:1px solid #ab3c45;
+	border-radius: 50%;
+	display: none;
+	position: absolute;
+	left: 48%;
+	top: 57%;
+}
+.yinz .circle{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid #ab3c45;
+	position: absolute;
+	top: -8.5px;
+	left: -8.5px;
+	animation:mymove 1s infinite linear;
+	-webkit-animation:mymove 1s infinite linear;
+}
+@keyframes mymove{
+	0% {
+        transform: scale(0.2);
+        opacity: 0.5;
+    }
+    25% {
+        transform: scale(0.4);
+        opacity: 0.7;
+    }
+    50% {
+        transform: scale(0.6);
+        opacity: 1;
+    }
+    75% {
+        transform: scale(0.8);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+}
+.yinz .small{
+	width: 27px;
+	height: 27px;
+	border-radius: 50%;
+	border: 2px solid #ab3c45;
+	position: absolute;
+	top: -8px;
+	left: -8px;
+	animation:smcircle 1s infinite linear;
+	-webkit-animation:smcircle 1s infinite linear;
+}
+@keyframes smcircle{
+	0% {
+        transform: scale(0.2);
+        opacity: 0.5;
+    }
+    25% {
+        transform: scale(0.4);
+        opacity: 0.7;
+    }
+    50% {
+        transform: scale(0.6);
+        opacity: 1;
+    }
+    75% {
+        transform: scale(0.8);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+}
+
+
+
+.yz{
+	width: 4%;
+	position: absolute;
+	left: 48%;
+	top: 56%;
+	display: none;
+}
+
+.two{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display:none;
+}
+.two video{
+	object-fit:cover;
+	width: 100%;
+	height:100%;
+}
+
+
+#btn{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 3%;
+	top: 2.5%;
+}
+
+
+.rotate {
+	
+    -webkit-animation: rotating 1.5s linear infinite;
+    -moz-animation: rotating 1.5s linear infinite;
+    -o-animation: rotating 1.5s linear infinite;
+    animation: rotating 1.5s linear infinite
+}
+
+   @-webkit-keyframes rotating {
+       from { -webkit-transform: rotate(0) }
+       to { -webkit-transform: rotate(360deg)}
+   }
+ 
+   @keyframes rotating {
+       from { transform: rotate(0) }
+       to { transform: rotate(360deg)}
+   }
+   @-moz-keyframes rotating {
+       from { -moz-transform: rotate(0) }
+       to { -moz-transform: rotate(360deg) }
+   }
+   @-ms-keyframes rotating {
+       from { -ms-transform: rotate(0) }
+       to { -ms-transform: rotate(360deg) }
+   }
+   @-o-keyframes rotating {
+       from { -o-transform: rotate(0) }
+       to { -o-transform: rotate(360deg) }
+   }
+
+
+#end{
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: absolute;
+	top: 0;
+}
+
+#fy{
+	width: 100%;
+	height: 100.5%;
+	display: none;
+	margin-top: -2px;
+}
